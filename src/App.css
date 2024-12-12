@@ -1,0 +1,37 @@
+/* :root{
+    --yellow: #ffc107;
+}
+body{
+    background-color: black;
+} */
+ /* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3934cd, #ec36e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  h2 {
+    margin: 0;
+    text-align: center;
+    color:#fcfafa
+  }
+  /* App.css */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: white;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background:transparent;
+  }
+  
+  

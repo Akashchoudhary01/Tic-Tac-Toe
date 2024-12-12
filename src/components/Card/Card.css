@@ -1,0 +1,30 @@
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(76, 77, 78, 0);
+    height: 100px;
+    width: 100px;
+    border: 2px solid #191a19;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(88, 16, 16, 0.1);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card:active {
+    transform: scale(0.95);
+  }
+  
+  .card svg {
+    color: #070707;
+    font-size: 22px;
+  }
+  
